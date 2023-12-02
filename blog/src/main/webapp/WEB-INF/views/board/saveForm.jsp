@@ -5,10 +5,9 @@
 <div class="container">
 	<form>
 		<div class="mb-3 mt-3">
-			<label for="title" class="form-label">Title</label> <input type="text" class="form-control" id="title" placeholder="Enter title">
+			<input type="text" class="form-control" id="title" placeholder="Enter title">
 		</div>
 		<div class="mb-3">
-			<label for="content">Content:</label>
 			<textarea class="form-control summernote"  rows="5" id="content" ></textarea>
 		</div>
 		
