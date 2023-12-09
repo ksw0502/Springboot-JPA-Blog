@@ -1,0 +1,43 @@
+package com.cos.blog.model;
+
+import javax.annotation.Generated;
+
+@Generated("jsonschema2pojo")
+class KakaoAccount {
+
+public Boolean profileNicknameNeedsAgreement;
+public Boolean profileImageNeedsAgreement;
+public Profile profile;
+
+}
+
+@Generated("jsonschema2pojo")
+public class KakaoProfile {
+
+public Long id;
+public String connectedAt;
+public Properties properties;
+public KakaoAccount kakaoAccount;
+
+}
+
+
+@Generated("jsonschema2pojo")
+class Profile {
+
+public String nickname;
+public String thumbnailImageUrl;
+public String profileImageUrl;
+public Boolean isDefaultImage;
+
+}
+
+
+@Generated("jsonschema2pojo")
+class Properties {
+
+public String nickname;
+public String profileImage;
+public String thumbnailImage;
+
+}
